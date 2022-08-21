@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: repo init -u https://github.com/SHRP/manifest.git -b v3_11.0
+  MANIFEST: https://github.com/SHRP/manifest
   DEVICE: G
   DT_LINK: https://github.com/Arka078/omni_device_10or_G
   DT_PATH: device/10or/G
